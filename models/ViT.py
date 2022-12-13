@@ -1,4 +1,3 @@
-import torch
 import torch.nn as nn
 from transformers import ViTForImageClassification
 
@@ -46,6 +45,6 @@ class ViTModel(nn.Module):
         return x
     
 
-    def print_params(self):
+    def print_params(self): 
         print("Parameters will update !")
         print(self.name_params_to_update)

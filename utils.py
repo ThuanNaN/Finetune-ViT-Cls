@@ -1,9 +1,9 @@
-
+import os
+import torch
 from torch.utils.data import Dataset
 from torchvision import datasets, transforms
 from transformers import ViTFeatureExtractor
-import os
-import torch
+
 
 
 def save_ckpt(PATH, name_ckpt, model, optimizer, epoch):
