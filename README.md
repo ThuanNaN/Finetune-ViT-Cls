@@ -35,6 +35,6 @@ python train.py
 To faster training on Apple M1 Silicon using GPU with Pytorch:
 ```
 opt.device = "cuda" if torch.cuda.is_available() else "cpu"
-# replace to
+# train.py replace to
 opt.device = torch.device("mps")
 ```
